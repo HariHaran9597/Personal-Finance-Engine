@@ -1,0 +1,52 @@
+date,description,amount,type
+2024-01-15,Starbucks Coffee,450,debit
+2024-01-16,Salary Credit,50000,credit
+2024-01-17,Uber Ride,250,debit
+2024-01-18,Zomato Order,680,debit
+2024-01-19,Electricity Bill,1200,debit
+2024-01-20,Amazon Shopping,2500,debit
+2024-01-21,Metro Card Recharge,500,debit
+2024-01-22,Netflix Subscription,649,debit
+2024-01-23,Grocery Store,1800,debit
+2024-01-24,Freelance Payment,15000,credit
+2024-01-25,Gym Membership,2000,debit
+2024-01-26,Petrol Pump,3000,debit
+2024-01-27,Restaurant Dinner,1500,debit
+2024-01-28,Medical Store,450,debit
+2024-01-29,Book Purchase,800,debit
+2024-01-30,Ola Cab,180,debit
+2024-02-01,Rent Payment,15000,debit
+2024-02-02,Swiggy Order,520,debit
+2024-02-03,Mobile Recharge,399,debit
+2024-02-04,Coffee Shop,300,debit
+2024-02-05,Salary Credit,50000,credit
+2024-02-06,Flipkart Shopping,3500,debit
+2024-02-07,Movie Tickets,800,debit
+2024-02-08,Uber Eats,450,debit
+2024-02-09,Water Bill,350,debit
+2024-02-10,ATM Withdrawal,5000,debit
+2024-02-11,Pharmacy,680,debit
+2024-02-12,Spotify Premium,119,debit
+2024-02-13,Pizza Delivery,950,debit
+2024-02-14,Gift Purchase,2500,debit
+2024-02-15,Bus Pass,600,debit
+2024-02-16,Salon Services,800,debit
+2024-02-17,Online Course,1999,debit
+2024-02-18,Grocery Shopping,2200,debit
+2024-02-19,Cafe Visit,400,debit
+2024-02-20,Uber Ride,320,debit
+2024-03-01,Salary Credit,50000,credit
+2024-03-02,Internet Bill,999,debit
+2024-03-03,Restaurant Lunch,850,debit
+2024-03-04,Clothing Store,4500,debit
+2024-03-05,Gas Cylinder,950,debit
+2024-03-06,Dunzo Delivery,250,debit
+2024-03-07,Insurance Premium,5000,debit
+2024-03-08,Stationery Shop,450,debit
+2024-03-09,Food Court,600,debit
+2024-03-10,Rapido Bike,80,debit
+2024-03-11,Vegetable Market,800,debit
+2024-03-12,Amazon Prime,299,debit
+2024-03-13,Bakery,350,debit
+2024-03-14,Ola Auto,150,debit
+2024-03-15,Rent Payment,15000,debit
