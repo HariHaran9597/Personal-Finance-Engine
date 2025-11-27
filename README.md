@@ -187,18 +187,19 @@ date,description,amount,type
 ```
 
 ### 3. Expense Predictor
-**Model:** Moving Average + Time Series Analysis
-- **Method:** 30-day rolling average of daily spending
-- **Output:** Daily predictions for next 30 days
-- **Confidence Intervals:** Upper and lower bounds
+**Model:** SARIMA (Seasonal AutoRegressive Integrated Moving Average)
+- **Method:** Statistical time series forecasting with seasonal decomposition
+- **Parameters:** SARIMA(1,1,1)(1,1,1,7) - captures daily trends + weekly patterns
+- **Output:** Daily predictions for next 30 days with confidence intervals
+- **Fallback:** Moving average for datasets with <21 days
 - **File:** `src/predictor.py`
 
 ```python
-# Algorithm:
-# 1. Aggregates spending by date
-# 2. Calculates moving average over last 30 days
-# 3. Projects next 30 days with confidence intervals
-# 4. Accounts for seasonal patterns
+# SARIMA Model Components:
+# order=(1,1,1): Non-seasonal (AR, differencing, MA)
+# seasonal_order=(1,1,1,7): Weekly seasonality (7-day cycle)
+# Captures patterns like "spend more on weekends"
+# Provides 80% confidence intervals for predictions
 ```
 
 ---
